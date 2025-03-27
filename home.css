@@ -143,48 +143,8 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
-.nav-menu li a:hover {
-  color: white;
-}
 
-/* Menu déroulant */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: rgba(28, 29, 28, 0.502);
-  min-width: 200px;
-  box-shadow: 0 4px 8px white;
-  border-radius: 5px;
-}
 
-.dropdown-content li {
-  list-style: none;
-}
-
-.dropdown-content li a {
-  color: white;
-  display: block;
-  padding: 10px;
-}
-
-.dropdown-content li a:hover {
-  background: rgba(211, 32, 32, 0.557);
-}
-
-/* Affichage au survol */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Menu mobile */
-.menu-btn {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  color: white;
-  cursor: pointer;
-}
 
 /* تأثير السحب من الأعلى */
 @keyframes slideDown {
